@@ -4,26 +4,51 @@
     <meta charset="utf-8">
     <title></title>
     <style>
+    #head{
+      text-align: right;
+      margin-right:10px;
+      font-size: 10px;
+    }
+    #head a{
+      color:black;
+    }
       h1{
         font-size:40px;
         text-align:center;
-        border:1px solid gray;
+        margin:10px;
+        margin-bottom:50px;
       }
       a{
         color: #00C73C;
         text-decoration:none;
       }
+      #grid{
+        display:inline-grid;
+        grid-template-columns: 305px 360px;
+        border-right:1px solid gray;
+        margin:10px;
+      }
+      #arc a{
+        color:black;
+      }
+      h5{
+        margin-top:5px;
+        margin-bottom:5px;
+        font-size:17px;
+      }
     </style>
   </head>
   <body>
-    <span id="head">
+    <div id="head">
     <a href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=16690"><span>네이버를 시작페이지로</span></a>
     <a href="https://jr.naver.com/">쥬니어네이버</a> <a href="https://happybean.naver.com/main/SectionMain.nhn"><span>해피빈</span></a>
-    </span>
+  </div>
     <h1><a href="https://www.naver.com/">NAVER</a></h1>
     <div id="grid">
-     <div><a href="https://nid.naver.com/nidlogin.login?url=http%3A%2F%2Fmail.naver.com%2F">메일</a> <a href="https://section.cafe.naver.com/">카페</a> <a href="https://section.blog.naver.com/BlogHome.nhn?directoryNo=0&currentPage=1&groupId=0">블로그</a> <a href="https://kin.naver.com/">지식iN</a> <a href="https://shopping.naver.com/">쇼핑</a> <a href="https://nid.naver.com/nidlogin.login?svctype=1&url=https%3A%2F%2Forder.pay.naver.com%2Fhome">Pay</a> <a href="https://tv.naver.com/">TV</a></div>
-     <div><a href="https://dict.naver.com/">사전</a> <a href="https://news.naver.com/">뉴스</a> <a href="https://finance.naver.com/">증권</a> <a href="https://land.naver.com/">부동산</a> <a href="https://map.naver.com/v5/?c=14369129.5563914,4193830.1843424,15,0,0,0,dh">지도</a> <a href="https://movie.naver.com/">영화</a> <a href="https://music.naver.com/">뮤직</a> <a href="https://book.naver.com/">책</a> <a href="https://comic.naver.com/index.nhn">웹툰</a></div>
+     <h5><a href="https://nid.naver.com/nidlogin.login?url=http%3A%2F%2Fmail.naver.com%2F">메일</a> <a href="https://section.cafe.naver.com/">카페</a> <a href="https://section.blog.naver.com/BlogHome.nhn?directoryNo=0&currentPage=1&groupId=0">블로그</a> <a href="https://kin.naver.com/">지식iN</a> <a href="https://shopping.naver.com/">쇼핑</a> <a href="https://nid.naver.com/nidlogin.login?svctype=1&url=https%3A%2F%2Forder.pay.naver.com%2Fhome">Pay</a> <a href="https://tv.naver.com/">TV</a></h5>
+     <div id="arc">
+       <h5><a href="https://dict.naver.com/">사전</a> <a href="https://news.naver.com/">뉴스</a> <a href="https://finance.naver.com/">증권</a> <a href="https://land.naver.com/">부동산</a> <a href="https://map.naver.com/v5/?c=14369129.5563914,4193830.1843424,15,0,0,0,dh">지도</a> <a href="https://movie.naver.com/">영화</a> <a href="https://music.naver.com/">뮤직</a> <a href="https://book.naver.com/">책</a> <a href="https://comic.naver.com/index.nhn">웹툰</a></h5>
+     </div>
     </div>
   </body>
 </html>
